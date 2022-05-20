@@ -59,6 +59,8 @@ export default {
     },
     dragover(e) {
       // Разрешаем сбрасывать элементы в эту область
+      // "deploy": "node ./node_modules/vue-gh-pages/index.js"
+      // "homepage": "https://github.com/maxik12335/vue-tasks",
       e.preventDefault()
       // Находим перемещаемый элемент
       const activeElement = document.querySelector(`.test-start`)

@@ -1,4 +1,5 @@
 module.exports = {
-  publicPath: '/vue-tasks/',
-  outputDir: "docs"
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/vue-tasks/'
+        : '/'
 }

@@ -2,13 +2,10 @@
   "name": "textvue",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/maxik12335/vue-tasks",
-  "wst": "/dist/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -22,6 +19,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^4.0.0",
     "vue-gh-pages": "^1.19.1",
     "vue-template-compiler": "^2.6.14"
   },
