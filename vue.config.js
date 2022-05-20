@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: '/vue-tasks/'
+  publicPath: '/vue-tasks/',
+  outputDir: "docs"
 }
